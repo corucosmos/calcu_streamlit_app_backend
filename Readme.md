@@ -11,7 +11,7 @@ Servidor de alto rendimiento construido con **FastAPI** que gestiona la lógica 
 ## 🛠️ Requisitos
 - Python 3.9+
 - FastAPI
-- Uvicorn◊
+- Uvicorn
 - Starlette (para gestión de sesiones)
 
 ## 🔧 Variables de Entorno
