@@ -1,12 +1,4 @@
-name: Build
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    types: [opened, synchronize, reopened]
-
-name: Build and Analysis
+name: Build and Analysis - Backend
 
 on:
   push:
