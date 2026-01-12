@@ -15,12 +15,12 @@ jobs:
     name: SonarQube Analysis
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 #v4
         with:
           fetch-depth: 0 
 
       - name: SonarQube Scan
-        uses: SonarSource/sonarqube-scan-action@v5 # Usando versión estable
+        uses: SonarSource/sonarqube-scan-action@fd88b7d7ccbaefd23d8f36f73b59db7a3d246602 #v6
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }} # Asegúrate de tener esta URL
